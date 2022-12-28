@@ -74,3 +74,23 @@ html {
 .navbar.sticky .menu li a:hover {
     color: #fff;
 }
+
+/*  Home   inicio  */
+
+.home {
+    display: flex;
+    background: url(image/banner.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
