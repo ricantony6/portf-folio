@@ -40,7 +40,7 @@ html {
 }
 
 .navbar .logo a {
-    color: #fff;
+    color: #000;
     font-size: 35px;
     font-weight: 500;
 }
@@ -51,7 +51,7 @@ html {
 }
 
 .navbar.sticky .logo a span {
-    color: #fff;
+    color: #000;
 }
 
 .navbar .menu li {
@@ -60,7 +60,7 @@ html {
 }
 
 .navbar .menu li a {
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -72,7 +72,7 @@ html {
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: #000;
 }
 
 /*  Home   inicio  */
@@ -82,7 +82,7 @@ html {
     background: url(image/banner.png) no-repeat;
     background-size: cover;
     height: 100vh;
-    color: #fff;
+    color: #000;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -93,4 +93,35 @@ html {
 
 .home .home-content .text-1 {
     font-size: 27px;
+}
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: #001780;
+    font-weight: 500;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: #001780;
+    color: #000;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #001780;
+}
+
+.home .home-content a:hover {
+    color: #001780;
+    background: none;
 }
